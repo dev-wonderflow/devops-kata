@@ -41,6 +41,6 @@ This exercise requires the design and implementation of an infrastructure based 
 5. Create a CI/CD pipeline using Gitlab, Github or any other similar tool for automating deployments.
     
 
-**IMPORTANT:** Provide a README for all step with instructions on how to build tun and test the environment.
+**IMPORTANT:** Provide a README for all step with instructions on how to build tune and test the environment.
 
 **CODE SUBMISSION:** Add the code to your own Github account and send us the link.
