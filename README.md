@@ -38,7 +38,7 @@ This exercise requires the design and implementation of an infrastructure based 
 2. Define ECS task definitions for the Web services.
 3. Configure an Application Load Balancer to route traffic to the ECS services.
 4. Implement auto-scaling policies for the ECS services.
-5. Create a CI/CD pipeline using Gitlab, Githup or any other similar tool for automating deployments.
+5. Create a CI/CD pipeline using Gitlab, Github or any other similar tool for automating deployments.
     
 
 **IMPORTANT:** Provide a README for all step with instructions on how to build tun and test the environment.
