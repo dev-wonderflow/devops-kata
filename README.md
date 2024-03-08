@@ -34,11 +34,11 @@ Modify the image implemented at step 3 so that the proxy server will be reachabl
 
 ### Step 5 
 This exercise requires the design and implementation of an infrastructure based on AWS Elastic Container Service (ECS) that hosts a web server service. It would be preferable for the exercise to be done using Terraform but the candidate can use any tool 
-    1. Set up an ECS cluster with Fargate launch type, VPC, and subnets.
-    2. Define ECS task definitions for the Web services.
-    3. Configure an Application Load Balancer to route traffic to the ECS services.
-    4. Implement auto-scaling policies for the ECS services.
-    5. Create a CI/CD pipeline using Gitlab, Githup or any other similar tool for automating deployments.
+1. Set up an ECS cluster with Fargate launch type, VPC, and subnets.
+2. Define ECS task definitions for the Web services.
+3. Configure an Application Load Balancer to route traffic to the ECS services.
+4. Implement auto-scaling policies for the ECS services.
+5. Create a CI/CD pipeline using Gitlab, Githup or any other similar tool for automating deployments.
     
 
 **IMPORTANT:** Provide a README for all step with instructions on how to build tun and test the environment.
