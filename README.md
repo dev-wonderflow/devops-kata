@@ -1,4 +1,4 @@
-# Docker Kata
+# Devops Kata
 The following is a Kata, an exercise in coding, refactoring and test-first.
 
 The goal is to solve the exercise in your own best way, showing us how you approch problems and your workflow. We may give more value to how you reached the solution with respect to the solution itself.
@@ -12,7 +12,7 @@ The goal is to solve the exercise in your own best way, showing us how you appro
 
 ## Description
 
-The goal is to build different Docker images and run containers to implement a HTTP web service.
+The goal is to build different Docker images and run containers to implement a HTTP web service. Additionally the candidate will demonstrate their expertise in setting up a complex infrastructure using AWS Elastic Container Service (ECS)
 
 ## The Kata
 
@@ -32,13 +32,14 @@ Create a Docker image that implements a HTTP proxy server. Run a container based
 Modify the image implemented at step 3 so that the proxy server will be reachable through HTTPs protocol.
 
 
-### Step 5 (Load balancing and HA)
-Run different containers based on previous images with following requirements:
- * Run two containers that serve the same HTML pages
- * The HTML pages are reachable through a browser using a specific URL
- * Even if one of the containers is stopped, the HTTP pages will be reachable anyway.
- * If both containers are stopped then, when trying to access HTML pages via the browser, a custom error will be displayed
-
+### Step 5 
+This exercise requires the design and implementation of an infrastructure based on AWS Elastic Container Service (ECS) that hosts a web server service. It would be preferable for the exercise to be done using Terraform but the candidate can use any tool 
+    1. Set up an ECS cluster with Fargate launch type, VPC, and subnets.
+    2. Define ECS task definitions for the Web services.
+    3. Configure an Application Load Balancer to route traffic to the ECS services.
+    4. Implement auto-scaling policies for the ECS services.
+    5. Create a CI/CD pipeline using Gitlab, Githup or any other similar tool for automating deployments.
+    
 
 **IMPORTANT:** Provide a README for all step with instructions on how to build tun and test the environment.
 
